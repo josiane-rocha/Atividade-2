@@ -1120,6 +1120,14 @@ function exercicio2(){
 
 function exercicio3(){
     // aqui vai seu código
+    let totalDisponivel = 0;
+    for (pos = 0; pos < listaProdutos.length; pos++) {
+        let prod = listaProdutos[pos];
+        if (prod.disponivel == "sim"){
+            totalDisponivel = totalDisponivel + prod.qtdEstoque;
+        }
+    }
+    console.log("Total Disponivel= " + totalDisponivel);
 }
 
 function exercicio4(){
@@ -1158,6 +1166,22 @@ function exercicio5(){
     }
     console.log(departamento);
 }
+
+function exercicio6(){
+    // aqui vai seu código
+
+}
+
+function exercicio7(){
+    // aqui vai seu código
+    let totalInventario = 0;
+    for (pos = 0; pos < listaProdutos.length; pos++) {
+        let prod = listaProdutos[pos];
+        totalInventario = totalInventario + prod.qtdEstoque / totalProdutos;
+    }
+    console.log("Valor do ticket médio dos produtos da empresa R$ "+totalInventario);
+}
+
 function exercicio9(){
     let departamento = {
         id: 0,
@@ -1197,3 +1221,4 @@ function exercicio9(){
     console.log("Departamento mais valiosooooo.......");
     console.log(departamentoMaisValioso);
 }
+
