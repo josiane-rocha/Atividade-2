@@ -6,7 +6,7 @@
 Somos parte de uma equipe de desenvolvimento de software que está criando uma série de ferramentas para gestão de eCommerces. Neste sentido, precisamos atender algumas necessidades de gestores destas plataformas. Precisamos criar soluções para ajudar nossos gestores a extrair dados de inventários de seus respectivos estoques.
 
 ## Strong Team
-![Team](Team.png.png)
+![Scrum](Scrum.jpg.webp)
 
 ## Sprint 01 - Atividade de programação
 
@@ -29,9 +29,6 @@ Somos parte de uma equipe de desenvolvimento de software que está criando uma s
 - Estimativa: 4h
 - Início previsto: 23/05/2021
 - Término previsto: 02/06/2021
-
-## Modelo conceitual
-![Fluxograma](Fluxograma.png.jpg)
 
 
 
